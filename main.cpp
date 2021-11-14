@@ -1,15 +1,15 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n=0, x=1, y=1, z=0;
+    int n=0;
     cin>>n;
-    while(x<=n) {
-        x=y+z;
-        z=y;
-        y=x;
-        if(x<=n) {
+    int risultato=0, primo=1, secondo=0;
+    while(risultato<=n) {
+        risultato=primo+secondo;
+        primo=secondo;
+        secondo=risultato;
+        cout<<risultato<<endl;
             cout<<x<<endl;
-        }
     }
     return 0;
 }
