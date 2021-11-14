@@ -10,7 +10,6 @@ int main() {
         if(x<=n) {
             cout<<x<<endl;
         }
-
     }
     return 0;
 }
